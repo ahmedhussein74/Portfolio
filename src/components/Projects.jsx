@@ -78,7 +78,7 @@ const Projects = () => {
         {projects.map((e, index) => (
           <div
             key={index}
-            className="shadow border rounded-[15px] p-[10px] lg:p-[20px]"
+            className="shadow border rounded-[15px] p-[10px] lg:p-[20px] duration-500 hover:translate-x-[-10px] hover:translate-y-[-10px]"
           >
             <img src={e.img} className="w-full border rounded-[10px]" />
             <h2 className="font-bold text-[20px] my-[10px] capitalize">
